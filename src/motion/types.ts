@@ -320,7 +320,7 @@ export interface MotionCallbacks {
      *
      * ```jsx
      * function onStart() {
-     *   console.log("Animation completed")
+     *   console.log("Animation start")
      * }
      *
      * <Frame animate={{ x: 100 }} onAnimationStart={onStart} />
@@ -330,7 +330,7 @@ export interface MotionCallbacks {
      *
      * ```jsx
      * function onStart() {
-     *   console.log("Animation completed")
+     *   console.log("Animation start")
      * }
      *
      * <motion.div animate={{ x: 100 }} onAnimationStart={onStart} />
